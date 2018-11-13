@@ -212,16 +212,72 @@
                   </div>
                 </div>
                 <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="bmd-label-floating">Club Name</label>
+                      <input type="email" class="form-control">
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                        <label>Event Date</label>
+                        <input type="date" class="form-control">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Venue</label>
+                          <input type="email" class="form-control">
+                        </div>
+                      </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                        <label class="bmd-label-floating">Category</label>
+                        <input type="email" class="form-control">
+                      </div>
+                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
                   <div class="form-group">
-                    <label class="bmd-label-floating"></label>
-                    <input type="date" class="form-control">
+                    <label >Event Start</label>
+                    <input type="time" class="form-control">
                   </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                      <label >Event End</label>
+                      <input type="time" class="form-control">
+                    </div>
+                  </div>
               </div>
+              
               <div class="form-group">
-                <label for="exampleMessage" class="bmd-label-floating">Description</label>
+                <label for="exampleMessage" class="bmd-label-floating">Organiser Description</label>
                 <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
               </div>
+              <div class="form-group">
+                  <label for="exampleMessage" class="bmd-label-floating">Event Description</label>
+                  <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+                </div>
+              <div class="row">
+                  <div class="text-center">
+                      <img src="images/upload_images/<%= items[0].image %>" style="height: 200px;width: 200px;border-radius: 50%" alt="Image will show up here...Change height and width if you wish to">
+                        <br><br>
+                        <button class="btn btn-primary">
+                            Upload a different poster
+                          </button>
+                         <br><br>
+      
+                         <div class="form-group">
+                                    <input type="file" name="sampleFile" id="image"  title="enter image" value="">
+                                    </div>
+      
+                  </div>
+              </div>  
               <div class="row">
                 <div class="col-md-4 ml-auto mr-auto text-center">
                   <button class="btn btn-primary btn-raised">
